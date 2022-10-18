@@ -4,6 +4,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'PyeongChangPeace-Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
 
 html {
   font-size: 18px;
@@ -12,7 +18,7 @@ html {
 body {
   margin: 0 0 5vh 0;
   background-color: whitesmoke;
-  font-family: 'GangwonEdu_OTFBoldA';
+  font-family: 'PyeongChangPeace-Light';;
 }
 
 .container {
